@@ -6,7 +6,7 @@
 /*   By: anvacca <anvacca@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/19 14:15:03 by flmarsou          #+#    #+#             */
-/*   Updated: 2025/03/27 12:38:46 by anvacca          ###   ########.fr       */
+/*   Updated: 2025/03/28 15:10:14 by anvacca          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ class AMateria
 		virtual AMateria	*clone() const = 0;
 		virtual void		use(ICharacter &target);
 
-	private:
+	protected:
 		std::string	_type;
 };
 
